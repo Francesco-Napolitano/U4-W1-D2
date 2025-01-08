@@ -25,10 +25,23 @@ public class altroEsempio {
 
       Scanner mioScanner = new Scanner(System.in);
       System.out.println("Inserisci il tuo nome");
-      String nomeUtente = mioScanner.nextLine();
-      System.out.println("Quanti anni hai, " + nomeUtente + "?");
-      int anni = mioScanner.nextInt();
-      System.out.println("Ciao " + nomeUtente + " hai " + anni + " anni");
+      // String nomeUtente = mioScanner.nextLine();
+      // System.out.println("Quanti anni hai, " + nomeUtente + "?");
+      // int anni = mioScanner.nextInt();
+      // System.out.println("Ciao " + nomeUtente + " hai " + anni + " anni");
+      // if (anni >= 18) {
+      // System.out.println(nomeUtente + " puoi votare");
+      // } else {
+      // System.out.println(nomeUtente + " non puoi votare");
+      // }
+      for (int i = 0; i <= 10; i++) {
+         System.out.print(i % 2 == 1 ? i : "");
+      }
 
+      int i = 0;
+      while (i <= 10) {
+         System.out.print(i % 2 == 1 ? i : "");
+         i++;
+      }
    }
 }
